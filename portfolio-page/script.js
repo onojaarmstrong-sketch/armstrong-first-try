@@ -8,6 +8,6 @@ copyButton.addEventListener("click", async () => {
     await navigator.clipboard.writeText(email);
     copyStatus.textContent = "Email address copied.";
   } catch {
-    copyStatus.textContent = `You can reach Maya at ${email}.`;
+    copyStatus.textContent = `You can reach Armstrong at ${email}.`;
   }
 });
